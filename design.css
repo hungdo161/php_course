@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.student_table {
+    border: 1px solid #333;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(159, 202, 212);
+    padding: 5px 10px;
+    border: 1px solid #333;
+}
+
+.header_btn {
+    padding-top: 5px;
+}
+
+.list-btn,
+.creat-btn {
+    border-radius: 4px;
+    border: 1px solid #000;
+    font-size: 16px;
+    padding: 5px 10px;
+}
+
+.emoji-icon {
+    font-size: 32px;
+    color: #000;
+}
+
+/* Search area */
+
+
+.search_area {
+    margin: 20px 5px;
+}
+
+.search-input {
+    padding: 5px 10px;
+    font-size: 14px;
+    border-right: transparent;
+}
+
+.Search-icon {
+    font-size: 20px;
+}
+
+.Search-icon:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.Search-icon-btn {
+    border:1px solid #000;  
+    font-size:20px;
+    /* margin-top: 5px; */
+    position: relative;
+    top: 5px;
+    left: -5px;
+    font-size: 28px;
+
+}
+
+
+.table {
+    width: 400px;
+}
+
+.table_row {
+    height: 30px;
+    width: 100%;
+    /* min-width: 40px ; */
+}
+
+.table_row td {
+    min-width: 80px;
+    text-align: center;
+}
+
+.table_row tbody {
+    display: none;
+}
+
+.edit-area {
+}
+
+.table_action {
+    width: 20px !important;
+    border: none;
+}
+
+.table_action i {
+    color: #000;
+}

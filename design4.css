@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.student_content {
+    border: 1px solid #333;
+    min-width: 400px;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(159, 202, 212);
+    padding: 5px 10px;
+    border: 1px solid #333;
+}
+
+.header_btn {
+    padding-top: 5px;
+}
+
+.list-btn,
+.creat-btn {
+    border-radius: 4px;
+    border: 1px solid #000;
+    font-size: 16px;
+    padding: 5px 10px;
+}
+
+.list-btn a,
+.creat-btn a {
+    text-decoration: none;
+    color: #000;
+}
+
+.emoji-icon {
+    font-size: 32px;
+    color: #000;
+}
+
+.content_container {
+    padding: 25px 20px 100px;
+}
+
+.content_tilte {
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+.content_firstName,
+.content_lastName,
+.content_age,
+.content_description {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px;
+}
+
+.content_age > .content_input {
+    margin-right: 190px;
+    min-width: 50px;
+    width: 50px !important;
+}
+
+.content_span-name {
+    font-size: 16px;
+}
+
+.content_input {
+    padding: 5px;
+    min-width: 240px;
+    border-radius: 5px;
+}
+
+.content_control-btn {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 15px;
+}
+
+.content_control-save-btn {
+    color: #000;
+    padding: 5px;
+    font-size: 18px;
+    background-color: rgb(178, 228, 230);
+    border-radius: 5px;
+    border: 1px solid  rgb(110, 224, 228);
+    margin-right: 10px;
+}
+
+.content_control-cancel-btn {
+    color: #000;
+    padding: 5px;
+    font-size: 18px;
+    background-color: rgb(228, 230, 147);
+    border-radius: 5px;
+    border: 1px solid  rgb(230, 209, 23);
+}
+
+.content_control-cancel-btn:hover,
+.content_control-save-btn:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.content_description > .content_input {
+    min-height: 100px;
+}
